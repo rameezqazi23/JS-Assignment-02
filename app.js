@@ -182,14 +182,86 @@
 // document.write("Today is "+ num.slice(0,3))
 
 //Task 04
-var day = new Date();
-document.write(day.getDay("0"))
+// var weekDays = ["Sun", "Mon","Tue", "Wed", "Thu", "Fri", "Sat"]
+// var day = new Date();
+// var today = day.getDay()
+
+// if(weekDays[today] === "Sat" || weekDays[today] === "Sun"){
+//     alert("It's a fun day! ")
+// }
+// else{
+//     alert("Boring")
+// }
 
 
-//Task 04
-//Task 04
-//Task 04
-//Task 04
-//Task 04
+//Task 05
+// var date = new Date();
+// var currentDate = date.getDate();
+// if(currentDate < 16){
+//     alert("First fifteen days of the month")
+// }
+// else{
+//     alert("Last days of the month")
+// }
+
+//Task 06
+// var date = new Date();
+// var milliSecond = date.getTime();
+// var minute_s = (milliSecond / (1000 * 60))
+// document.write("Current Date: ".bold()+ date +"<br>")
+// document.write("Elapsed miliseconds since January 1, 1970: ".bold()+ milliSecond +"<br>")
+// document.write("Elapsed minutes since January 1, 1970: ".bold()+ minute_s)
+
+//Task 07
+// var date = new Date();
+// var hour = date.getHours();
+// if(hour > 12){
+//     alert("It's PM")
+    
+// }
+// else{
+//     alert("It's AM") 
+
+// }
+
+//Task 08
+// var laterDate = new Date("Dec 31, 2020")
+// alert("Later date: "+ laterDate)
+
+//Task 09
+// var currentDate = new Date();
+// var ramdanDate = new Date("Apr 23, 2020");
+// var diff = currentDate.getTime() - ramdanDate.getTime()
+
+// var pastDays = Math.round(diff / (1000 * 60 * 60 * 24))
+// alert(pastDays +" days have passed since 1st Ramadan, 2020")
+
+
+//Task 10
+// var currentDate = new Date();
+// var refDate = new Date("Dec 05, 2015");
+// var diff = currentDate.getTime() - refDate.getTime()
+
+// var pastSec = Math.round(diff / (1000))
+// document.write("On reference date "+ refDate +", "+ pastSec +" seconds had passed since begining of 2015")
+
+
+//Task 11
+var currentDate = new Date();
+var dateAhead = currentDate.setHours(currentDate.getUTCHours() - 1)
+// var diff = dateAhead.getUTCHours() - currentDate.getUTCHours()
+document.write("Current date: "+ dateAhead +"<br>")
+document.write("1 hour ago it was: "+ currentDate +"<br>")
+
+
+
+
+//Task 09
+//Task 09
+//Task 09
+//Task 09
+
+
+
 
 
