@@ -247,19 +247,90 @@
 
 
 //Task 11
-var currentDate = new Date();
-var dateAhead = currentDate.setHours(currentDate.getUTCHours() - 1)
-// var diff = dateAhead.getUTCHours() - currentDate.getUTCHours()
-document.write("Current date: "+ dateAhead +"<br>")
-document.write("1 hour ago it was: "+ currentDate +"<br>")
+// var hoursAhead = new Date();
+// document.write("Current date: "+ hoursAhead +"<br>")
+// hoursAhead.setHours(hoursAhead.getHours() - 1)
+// document.write("1 hour ago it was: "+ hoursAhead +"<br>")
+
+//Task 12
+// var pastYear = new Date();
+// document.write("Current date: "+ pastYear +"<br>")
+// pastYear.setFullYear(pastYear.getFullYear()-100)
+// document.write("100 years back, it was "+ pastYear)
+
+// var pYear = new Date();
+// document.write("Current date: "+ pYear +"<br>")
+// pYear.setFullYear(pYear.getFullYear()-100);
+// document.write("1 hour ago it was: "+ pYear +"<br>")
+
+//Task 13
+// var currentDate = new Date();
+// var age = prompt("How are you old? ")
+// var birthYear= currentDate.getFullYear()-age
+// document.write("Your age is "+ age +"<br>")
+// document.write("Your birth year is "+ birthYear)
 
 
+//Task 14
+// var date = new Date()
+// var customerName = "ABC Customer"
+// var currentMonth = date.getMonth()
+// var units = 650
+// var chargesPerUnit = 16
+// var netAmmount = units * chargesPerUnit
+// var surcharge = 350
+// var grossAmmount = netAmmount + surcharge
+// var month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+
+// document.write("<h1> K-Electeric Bill</h1>")
+// document.write("Customer Name: "+ customerName.bold() +"<br>")
+// document.write("Month: "+ month[currentMonth].bold() +"<br>")
+// document.write("Number of Units: "+ units +"<br>")
+// document.write("charges per unit: "+ chargesPerUnit +"<br> <br>")
+// document.write("Net Amount Payable (within Due Date): "+ netAmmount +"<br>")
+// document.write("Late payment surcharge: "+ surcharge +"<br>")
+// document.write("Gross Amount Payable (after Due Date): "+ grossAmmount)
+
+//------------------------------------------------------------------------------------------------------------
 
 
-//Task 09
-//Task 09
-//Task 09
-//Task 09
+//CHAPTER 35 - 38
+
+
+//Task 01
+// function today(){
+//     var date = new Date();
+//     alert(date)
+// }
+// today();
+
+//Task 02
+// function greetUser(){
+//     var fName = prompt("Enter your first name ")
+//     var lName = prompt("Enter your last name ")
+//     alert("Hello "+ fName +" "+ lName) 
+// }
+// greetUser()
+
+//Task 03
+function sum(){
+    num1 = prompt("Enter first number ")
+    num2 = prompt("Enter second number ")
+    add = Number(num1) + Number(num2)
+    alert("Sum of two numbers is "+ add)
+}
+sum()
+
+
+//Task 01
+//Task 01
+//Task 01
+//Task 01
+//Task 01
+//Task 01
+//Task 01
+//Task 01
+
 
 
 
