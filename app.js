@@ -313,18 +313,103 @@
 // greetUser()
 
 //Task 03
-function sum(){
-    num1 = prompt("Enter first number ")
-    num2 = prompt("Enter second number ")
-    add = Number(num1) + Number(num2)
-    alert("Sum of two numbers is "+ add)
+// function sum(){
+//     num1 = prompt("Enter first number ")
+//     num2 = prompt("Enter second number ")
+//     add = Number(num1) + Number(num2)
+//     return alert("Sum of two numbers is "+ add)
+// }
+// sum()
+
+//Task 04
+// function add(){
+//     var num1
+//     var num2
+//     var sum = Number(num1) + Number(num2)
+//     alert("Sum of two numbers is "+ sum)
+// }
+
+// function sub(){
+//     sum = Number(num1) - Number(num2)
+//     return alert("Subtraction of two numbers is "+ sum)
+// }
+
+// function mul(){
+//     sum = Number(num1) * Number(num2)
+//     return alert("Multiplication of two numbers is "+ sum)
+// }
+// function div(){
+//     sum = Number(num1) / Number(num2)
+//     return alert("Division of two numbers is "+ sum)
+// }
+
+// function calculator(){
+
+//     var num1 = prompt("Enter first Number ")
+//     var num2 = prompt("Enter  second Number ")
+//     num1 = Number(num1)
+//     num2 = Number(num2)
+    
+//     var operator = prompt("Which operation do you perform? ")
+//     if(operator === '+'){
+//         sum = num1 + num2
+//         alert("The sum of two number is "+ sum)
+    
+//     }
+//     else if(operator === '-'){
+//         sub = num1 - num2
+//         alert("The sbtractoin of two number is "+ sub)
+    
+        
+//     }
+//     else if(operator === '*'){
+//         mul = num1 * num2
+//         alert("The multiplication of two number is "+ mul)
+    
+        
+//     }
+//     else if(operator === '/'){
+//         div = num1 / num2
+//         alert("The sbtractoin of two number is "+ div)
+    
+        
+//     }
+//     else{
+//         alert("Invalid operator")
+//     }
+    
+// }
+// calculator()
+
+
+//Task 05
+// function number(num1){
+
+//     var out = Math.pow(num1,2)
+//     console.log(out)
+// }
+// number(5)
+
+
+//Task 06
+function factorial(){
+    // var num = prompt("Enter a number to find factorial")
+    var num = 3
+    var num2
+    // num = Number(num)
+    // num2 = Number(num2)
+    for(var i=num; i>0; --i){
+    
+        num2 = num2 * i
+        document.write(num2+"<br>")
+        
+    }
+    alert("The factorial of "+ num +" is "+ num2)
 }
-sum()
+factorial()
 
 
-//Task 01
-//Task 01
-//Task 01
+
 //Task 01
 //Task 01
 //Task 01
