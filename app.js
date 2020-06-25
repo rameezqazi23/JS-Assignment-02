@@ -392,27 +392,57 @@
 
 
 //Task 06
-function factorial(){
-    // var num = prompt("Enter a number to find factorial")
-    var num = 3
-    var num2
-    // num = Number(num)
-    // num2 = Number(num2)
-    for(var i=num; i>0; --i){
+// function factorial(){
+//     // var num = prompt("Enter a number to find factorial")
+//     var fact = 1
+//     var num = prompt("Enter a number to find the factorial ")
+
+//     for(var i=1; i<=num; i++){
     
-        num2 = num2 * i
-        document.write(num2+"<br>")
+//         fact = fact * i
         
-    }
-    alert("The factorial of "+ num +" is "+ num2)
+//     }
+//     alert("The factorial of "+ num +" is "+ fact)
+// }
+// factorial()
+
+
+//Task 07
+// function count(){
+//     var input = prompt("Enter a number that ends the counting ")
+//     document.write("Counting".bold()+"<br>")
+//     for(var i=0; i<=input; i++){
+//         document.write(i +"<br>")
+//     }
+// }
+// count()
+
+
+//Task 08
+// function pythagorous(){
+//     function hypoteneuse(){
+//         base = prompt("Enter base of a triangle ")
+//         perpendicular = prompt("Enter perpendicular of a triangle ")
+//         hyp = Math.pow(base, 2) + Math.pow(perpendicular, 2)
+//     }
+//     hypoteneuse()
+//     hyp = Math.sqrt()
+//     document.write("Hypoteneus is "+ hyp)
+// }
+// pythagorous()
+
+
+//Task 09
+// a)
+function area(25, 15){
+    var Area = width * height
+    alert("The area of traingle is "+ Area)
 }
-factorial()
+area()
 
 
 
-//Task 01
-//Task 01
-//Task 01
+
 //Task 01
 //Task 01
 
