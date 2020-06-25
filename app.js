@@ -434,17 +434,51 @@
 
 //Task 09
 // a)
-function area(25, 15){
-    var Area = width * height
-    alert("The area of traingle is "+ Area)
-}
-area()
+// function area(width, height){
+//     var Area = width * height
+//     alert("The area of traingle is "+ Area)
+// }
+// area(25, 5)
+// b)
+// function area(width, height){
+//     width = 25;
+//     height = 5;
+//     var Area = width * height
+//     alert("The area of traingle is "+ Area)
+// }
+// area()
+
+
+//Task 10
+
+
+//Task 11
+
+
+//Task 12
+
+
+//Task 13
 
 
 
+//Task 14
+// var pi = 3.141592654
+// document.write("The Geometrizer".bold()+"<br> <br>")
+// function calcCircumference(rad){
+//     var circumference = 2 * pi *rad
+//     document.write("Circumference of circle is "+circumference+"<br> <br>")
+// }
 
-//Task 01
-//Task 01
+// function calcArea(rad){
+//     var Area = pi * Math.pow(rad, 2)
+//     document.write("Area of circle is "+Area)
+
+// }
+
+// calcCircumference(5)
+// calcArea(5)
+
 
 
 
